@@ -1,4 +1,4 @@
-# How Markets React to Fed Rate Decisions (2025–2026)
+# How Markets React to Fed Rate Decisions (2025-2026)
 ### A Python event study of Treasury yields, the dollar, stocks and gold around 15 Federal Reserve decisions
 
 **Business question:** When the Federal Reserve announces a rate decision, how do markets react, and did the September 2026 hike, the Fed's first since 2023, play out the way finance theory predicts?
