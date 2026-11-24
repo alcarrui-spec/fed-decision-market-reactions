@@ -1,4 +1,4 @@
-# How Markets React to Fed Rate Decisions (2025-2026)
+# How Markets React to Fed Rate Decisions (2025–2026)
 ### A Python event study of Treasury yields, the dollar, stocks and gold around 15 Federal Reserve decisions
 
 **Business question:** When the Federal Reserve announces a rate decision, how do markets react, and did the September 2026 hike, the Fed's first since 2023, play out the way finance theory predicts?
@@ -16,7 +16,24 @@
 
 ## Key findings
 
-*Results are filled in from the notebook run.*
+| # | Finding | Evidence |
+|---|---|---|
+| 1 | **The 2-year Treasury is where Fed decisions hit hardest** | On decision days it moved 5.5 bp on average vs. 3.9 bp on other days (43% more). The 10-year moved only 7% more. |
+| 2 | **Other markets were calmer than usual on Fed days** | The dollar, S&P 500 and gold all moved *less* on decision days than on ordinary days (0.55x to 0.76x normal), suggesting much of the decision was already priced in. |
+| 3 | **The September 2026 hike was priced in weeks ahead** | In the 20 trading days before the hike, the 2-year yield rose 48 bp, the 10-year 29 bp and the 10-year real yield 21 bp. On the day itself, the 2-year rose 7 bp, about 1.8x a normal day. |
+| 4 | **After the hike, markets followed the textbook** | Over the next 20 trading days, the real yield rose another 16 bp, the dollar gained 2.3% and gold fell 3.8%, the pattern finance theory predicts for tighter policy. |
+| 5 | **The message mattered more than the decision** | The biggest decision-day jumps in the 2-year yield came on a *hold* (+15 bp, June 17, 2026) and a *cut* (+12 bp, October 29, 2025), not the hike, so markets were reacting to the Fed's signals about future rates. |
+| 6 | **Gold's link to real yields is weak day to day** | Daily correlation r = −0.12 (about −0.45% gold per +10 bp in real yields). The direction matches theory, but daily noise dominates. My earlier monthly gold return model, which combines several drivers, explained about two-thirds of gold's monthly moves (adj. R² 0.658). |
+
+**Takeaway for investors:** watch the 2-year Treasury and the Fed's guidance, not just the decision. By the time the Fed acts, the 2-year has often moved already, while stocks, the dollar and gold adjust over the following weeks.
+
+![Fed target range vs. Treasury yields](images/01_fed_vs_yields.png)
+
+![Decision-day reactions](images/02_decision_day_moves.png)
+
+![Around the September 2026 hike](images/03_september_2026_hike.png)
+
+![Gold vs. real yields](images/04_gold_vs_real_yield.png)
 
 ---
 
